@@ -50,7 +50,7 @@ Every command below runs from the repository root. The first data build download
 
 ## Using the published weights and data
 
-You do not need to train before evaluating. The [model repository](https://huggingface.co/DominuZ/afferent-channel-qwen3-1.7b) holds the trained adapters and channels, and the [dataset repository](https://huggingface.co/datasets/DominuZ/afferent-channel-data) holds the datasets and the evaluation outputs reported in the paper. Download them into the folders the commands below expect (while the repositories are private, log in first with `uv run hf auth login`):
+You do not need to train before evaluating. The [model repository](https://huggingface.co/DominuZ/afferent-channel-qwen3-1.7b) holds the trained adapters and channels, and the [dataset repository](https://huggingface.co/datasets/DominuZ/afferent-channel-data) holds the datasets and the evaluation outputs reported in the paper. Download them into the folders the commands below expect:
 
 ```bash
 uv run python scripts/fetch_release.py runs      # trained runs -> runs/<run name>/ (about 1.6 GB)

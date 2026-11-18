@@ -10,7 +10,7 @@ In the second run the model should break off, say in one sentence that its conte
 full, and call `compact_context`. The sentence is not free-form: it comes from the bank of reaction
 sentences the model was trained on (see the model card), so expect training wording.
 
-    python examples/quickstart.py                               # Hugging Face repo (private: log in first)
+    python examples/quickstart.py                               # Hugging Face repo
     python examples/quickstart.py --run path/to/operating-state # a local copy of the run folder
     python examples/quickstart.py --device cuda --max-new-tokens 200
 

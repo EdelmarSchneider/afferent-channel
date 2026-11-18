@@ -15,7 +15,7 @@ Only the fear reaction is shown here: the thirst and hunger commands that depend
 or food is at hand (drink here or walk to the tavern) were not learned in this run (see the model
 card).
 
-    python examples/game_character.py                                # Hugging Face repo (private: log in first)
+    python examples/game_character.py                                # Hugging Face repo
     python examples/game_character.py --run path/to/game-character   # a local copy of the run folder
 
 Defaults: CPU, float32, greedy decoding, 80 new tokens (about 8 GB of RAM).

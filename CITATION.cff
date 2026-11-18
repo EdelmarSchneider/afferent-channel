@@ -32,5 +32,8 @@ preferred-citation:
       orcid: "https://orcid.org/0009-0000-6737-8997"
   year: 2026
   status: preprint
-  notes: "Draft 2. arXiv identifier to come."
-  url: "https://github.com/EdelmarSchneider/afferent-channel"
+  publisher:
+    name: Zenodo
+  doi: "10.5281/zenodo.24355791"
+  url: "https://doi.org/10.5281/zenodo.24355791"
+  notes: "Preprint (version 1 on Zenodo). arXiv identifier to come."

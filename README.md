@@ -8,7 +8,7 @@ This repository holds the code, the experiment commands and the paper for *State
 
 *Figure 1. The harness or engine gives the model its state beside the text. Top: status text takes context tokens; the channel takes none, but it costs a fine-tune and slower generation, and the model still needs the history of its turn. Below: an agent compacts its context at its limit; a farmer flees when fear reaches terror. The text is recorded model output with trained wording. No game was run.*
 
-**Paper:** [main text (PDF)](paper/draft2.pdf) · [appendix (PDF)](paper/draft2-appendix.pdf) · arXiv link to come
+**Paper:** [main text (PDF)](paper/draft2.pdf) · [appendix (PDF)](paper/draft2-appendix.pdf) · preprint on Zenodo: [doi:10.5281/zenodo.24355791](https://doi.org/10.5281/zenodo.24355791) · arXiv link to come
 **Trained weights:** [huggingface.co/DominuZ/afferent-channel-qwen3-1.7b](https://huggingface.co/DominuZ/afferent-channel-qwen3-1.7b)
 **Data and evaluation outputs:** [huggingface.co/datasets/DominuZ/afferent-channel-data](https://huggingface.co/datasets/DominuZ/afferent-channel-data)
 **Try it:** `uv sync`, then `uv run python examples/quickstart.py` (agent) or `uv run python examples/game_character.py` (game character); both run on a CPU. See [Quickstart](#quickstart).
@@ -96,7 +96,7 @@ uv run python examples/quickstart.py        # an agent reaching its context limi
 uv run python examples/game_character.py    # a village guard when a wolf appears
 ```
 
-`uv sync` installs PyTorch with CUDA 12.8 and the other pinned dependencies. The first run of the example downloads Qwen3-1.7B (about 3.8 GB) and the trained adapter and channel (about 240 MB) from Hugging Face, then asks one question twice, once with the context fill at a normal level and once with it crossing its limit a few tokens in, and prints both answers. `game_character.py` does the same for a village guard whose fear jumps to terror when a wolf appears. The examples run on the CPU by default (float32, about 8 GB of RAM, seconds per run); add `--device cuda` to use a GPU. While the Hugging Face repositories are private, log in first with `uv run hf auth login`.
+`uv sync` installs PyTorch with CUDA 12.8 and the other pinned dependencies. The first run of the example downloads Qwen3-1.7B (about 3.8 GB) and the trained adapter and channel (about 240 MB) from Hugging Face, then asks one question twice, once with the context fill at a normal level and once with it crossing its limit a few tokens in, and prints both answers. `game_character.py` does the same for a village guard whose fear jumps to terror when a wolf appears. The examples run on the CPU by default (float32, about 8 GB of RAM, seconds per run); add `--device cuda` to use a GPU.
 
 To check the installation without a GPU, run the unit tests (they use a tiny random model on the CPU):
 
@@ -142,15 +142,17 @@ uv run pytest -q
 
 ## Citation
 
-Please cite the paper; [CITATION.cff](CITATION.cff) has the same information. The arXiv identifier will be added when it exists.
+Please cite the paper (preprint on Zenodo, [doi:10.5281/zenodo.24355791](https://doi.org/10.5281/zenodo.24355791)); [CITATION.cff](CITATION.cff) has the same information. The arXiv identifier will be added when it exists.
 
 ```bibtex
 @misc{schneider2026statebeside,
-  title  = {State Beside the Text: An Afferent Channel for Agents and Game Characters},
-  author = {Schneider, Edelmar},
-  year   = {2026},
-  note   = {Preprint; arXiv identifier to come},
-  url    = {https://github.com/EdelmarSchneider/afferent-channel}
+  title     = {State Beside the Text: An Afferent Channel for Agents and Game Characters},
+  author    = {Schneider, Edelmar},
+  year      = {2026},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.24355791},
+  url       = {https://doi.org/10.5281/zenodo.24355791},
+  note      = {Preprint}
 }
 ```
 
