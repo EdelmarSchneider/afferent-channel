@@ -1,0 +1,38 @@
+[project]
+name = "prio"
+version = "0.1.0"
+description = "Afferent channel for language models: code for the paper"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "torch",
+    "transformers>=4.51",
+    "peft",
+    "accelerate",
+    "datasets",
+    "numpy",
+]
+
+[dependency-groups]
+dev = ["pytest"]
+
+[build-system]
+requires = ["uv_build>=0.11,<0.12"]
+build-backend = "uv_build"
+
+[tool.uv.sources]
+torch = { index = "pytorch-cuda" }
+
+[[tool.uv.index]]
+name = "pytorch-cuda"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true
+
+[tool.pytest.ini_options]
+addopts = '-m "not slow"'
+markers = ["slow: needs a real model and the GPU"]
+testpaths = ["tests"]
+filterwarnings = [
+    # Library noise from the tiny GPT-2 used in unit tests (Conv1D layers, peft internals).
+    "ignore:fan_in_fan_out is set to False:UserWarning",
+    "ignore:`is_gradient_checkpointing` is deprecated:FutureWarning",
+]

@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this code, data or the trained weights, please cite the paper as below."
+title: "afferent-channel: code for State Beside the Text"
+abstract: >-
+  Code, experiment commands and paper for an afferent channel: a trained input
+  path through which an agent harness or a game engine gives a language model its
+  state (context fill, battery, a character's fear) beside every token, so the
+  model can act on it mid-sentence.
+type: software
+authors:
+  - family-names: Schneider
+    given-names: Edelmar
+    orcid: "https://orcid.org/0009-0000-6737-8997"
+version: draft-2
+date-released: "2026-11-18"
+repository-code: "https://github.com/EdelmarSchneider/afferent-channel"
+license: Apache-2.0
+keywords:
+  - language models
+  - agents
+  - game characters
+  - non-player characters
+  - fine-tuning
+  - forged status
+  - Qwen3
+preferred-citation:
+  type: article
+  title: "State Beside the Text: An Afferent Channel for Agents and Game Characters"
+  authors:
+    - family-names: Schneider
+      given-names: Edelmar
+      orcid: "https://orcid.org/0009-0000-6737-8997"
+  year: 2026
+  status: preprint
+  notes: "Draft 2. arXiv identifier to come."
+  url: "https://github.com/EdelmarSchneider/afferent-channel"

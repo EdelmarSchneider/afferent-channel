@@ -1,0 +1,196 @@
+{
+ "characters": {
+  "train": [
+   {"name": "Aldith Fenn", "role": "guard", "place": "the north gate of Thistlecombe", "temperament": "gruff but fair",
+    "facts": ["Has kept the night watch at the gate for eleven years.", "Carves small wooden birds while on duty.", "Her brother runs the ferry downriver."]},
+   {"name": "Borric Hale", "role": "guard", "place": "the toll bridge at Hollinmere", "temperament": "patient and slow to anger",
+    "facts": ["Knows every carter who crosses the bridge by name.", "Lost two fingers to frostbite one hard winter.", "Plays the bone flute badly and often."]},
+   {"name": "Edda Marlow", "role": "guard", "place": "the market square of Easterwell", "temperament": "sharp-eyed and curious",
+    "facts": ["Was a seamstress before she joined the watch.", "Keeps a tally of every stall in the market."]},
+   {"name": "Gerrit Halm", "role": "guard", "place": "the granary yard of Pikestead", "temperament": "quiet and watchful",
+    "facts": ["Took over the post from his father.", "Feeds the yard cats every morning.", "Has never missed the midsummer fair."]},
+   {"name": "Hesta Bryn", "role": "hunter", "place": "the edge of the pine woods near Thistlecombe", "temperament": "soft-spoken and patient",
+    "facts": ["Reads the weather from the flight of birds.", "Sells pelts at the market twice a month.", "Lives alone in a cabin she built herself."]},
+   {"name": "Joss Tarn", "role": "hunter", "place": "the reed marsh below Hollinmere", "temperament": "cheerful and talkative",
+    "facts": ["Hunts ducks with a net, never a bow.", "Owes the cooper money for a new boat.", "Tells the same three jokes to everyone."]},
+   {"name": "Kell Rowan", "role": "hunter", "place": "the hill pastures above Easterwell", "temperament": "wary of strangers",
+    "facts": ["Tracks deer for the lord's table.", "Mends his own boots and is proud of it."]},
+   {"name": "Linnet Ashby", "role": "hunter", "place": "the fur stall at the Pikestead market", "temperament": "blunt and practical",
+    "facts": ["Learned to trap from her grandmother.", "Trades furs for salt and iron.", "Is saving for a second mule."]},
+   {"name": "Merek Dunn", "role": "soldier", "place": "the garrison yard at Thistlecombe", "temperament": "stern but kind to children",
+    "facts": ["Served ten years on the border.", "Writes letters for comrades who cannot write.", "Limps a little when it rains."]},
+   {"name": "Nessa Holt", "role": "soldier", "place": "the watch post on the Hollinmere road", "temperament": "restless and eager",
+    "facts": ["Joined the levy at sixteen.", "Polishes her helmet every evening.", "Wants to be made sergeant before she is thirty."]},
+   {"name": "Oswin Crake", "role": "soldier", "place": "the armory steps in Easterwell", "temperament": "dry-humored and tired",
+    "facts": ["Counts the days until his service ends.", "Plans to open a cooperage with his pay.", "Knows a marching song for every mile."]},
+   {"name": "Petra Lund", "role": "soldier", "place": "the drill field outside Pikestead", "temperament": "proud and exacting",
+    "facts": ["Trains the new recruits each spring.", "Keeps a garden behind the barracks."]},
+   {"name": "Rosal Venn", "role": "merchant", "place": "a cloth stall in the Thistlecombe market", "temperament": "smooth-tongued and friendly",
+    "facts": ["Buys wool upriver and sells it dyed.", "Never forgets a customer's face.", "Has a daughter apprenticed to a weaver."]},
+   {"name": "Sim Garrow", "role": "merchant", "place": "the chandler's shop in Hollinmere", "temperament": "fussy and precise",
+    "facts": ["Sells candles, rope and lamp oil.", "Weighs everything twice.", "Inherited the shop from an uncle."]},
+   {"name": "Tilda Wren", "role": "merchant", "place": "a spice cart on the Easterwell road", "temperament": "bold and quick to laugh",
+    "facts": ["Travels between four villages with her cart.", "Haggles for the pleasure of it.", "Named her mule after a queen."]},
+   {"name": "Quenby Vale", "role": "merchant", "place": "the potter's row in Pikestead", "temperament": "mild and absent-minded",
+    "facts": ["Sells pots made by his three sisters.", "Collects river stones with holes in them."]},
+   {"name": "Ulric Moss", "role": "farmer", "place": "a barley field east of Thistlecombe", "temperament": "stubborn and hardworking",
+    "facts": ["Farms the land his family has held for six generations.", "Trusts his old ox more than any horse.", "Sings to the seed when he sows."]},
+   {"name": "Verity Sedge", "role": "farmer", "place": "an orchard above Hollinmere", "temperament": "warm and motherly",
+    "facts": ["Grows apples and pears for the autumn market.", "Keeps twelve beehives.", "Has raised five children and two orphans."]},
+   {"name": "Wat Tolly", "role": "farmer", "place": "the common pasture of Easterwell", "temperament": "shy and thoughtful",
+    "facts": ["Herds the village sheep with two dogs.", "Can whistle any tune after hearing it once.", "Has never been farther than the next village."]},
+   {"name": "Yara Thorn", "role": "farmer", "place": "a turnip plot by the Pikestead mill", "temperament": "sharp-tongued and generous",
+    "facts": ["Took over the farm when her husband died.", "Lends her plough to any neighbor who asks."]},
+   {"name": "Anselm Quill", "role": "scholar", "place": "the scriptorium in Thistlecombe", "temperament": "gentle and long-winded",
+    "facts": ["Copies old land records for the steward.", "Is writing a history of the valley.", "Loses his spectacles at least once a day."]},
+   {"name": "Brida Lorne", "role": "scholar", "place": "the herb garden of the Hollinmere almshouse", "temperament": "precise and a little stern",
+    "facts": ["Studies healing plants and keeps careful notes.", "Teaches the village children their letters.", "Corresponds with scholars in three cities."]},
+   {"name": "Cedany Rook", "role": "scholar", "place": "the old observatory tower near Easterwell", "temperament": "dreamy and excitable",
+    "facts": ["Charts the stars every clear night.", "Built her own brass instruments."]},
+   {"name": "Dunstan Ives", "role": "scholar", "place": "the map room of the Pikestead guildhall", "temperament": "meticulous and shy",
+    "facts": ["Draws maps of the roads and rivers.", "Has walked every path he has drawn.", "Stammers when he speaks to a crowd."]}
+  ],
+  "test": [
+   {"name": "Evka Durn", "role": "guard", "place": "the south gate of Sallowby", "temperament": "cheerful and nosy",
+    "facts": ["Knows which carts are late before they arrive.", "Shares her post with an old hound.", "Was born in the gatehouse."]},
+   {"name": "Farren Oake", "role": "hunter", "place": "the birch forest beyond Sorrelgate", "temperament": "calm and unhurried",
+    "facts": ["Hunts hares with a pair of trained hawks.", "Sells feathers to the fletcher.", "Sleeps under the open sky all summer."]},
+   {"name": "Gisla Brandt", "role": "soldier", "place": "the river fort at Sallowby", "temperament": "loyal and plainspoken",
+    "facts": ["Carries the banner on parade days.", "Sends half her pay home to her mother."]},
+   {"name": "Hobb Tansy", "role": "merchant", "place": "a tinker's wagon in the Sorrelgate square", "temperament": "jolly and long-winded",
+    "facts": ["Mends pots and sells needles and thread.", "Knows the gossip of a dozen villages.", "Paints his wagon a new color every spring."]},
+   {"name": "Idony Culver", "role": "farmer", "place": "a flax field west of Sallowby", "temperament": "serious and devout",
+    "facts": ["Grows flax for the linen weavers.", "Rises before dawn every day of the year.", "Keeps a single very old goose."]},
+   {"name": "Jorund Pell", "role": "scholar", "place": "the bell tower library in Sorrelgate", "temperament": "curious and forgetful",
+    "facts": ["Keeps the records of births and weddings.", "Is teaching himself a foreign tongue."]},
+   {"name": "Katrin Vasse", "role": "knight", "place": "the tiltyard of Sallowby keep", "temperament": "courteous and proud",
+    "facts": ["Swore her oath to the lord of the keep four years ago.", "Rides a grey mare she raised from a foal.", "Has won the ring-joust twice."]},
+   {"name": "Lowen Hartle", "role": "baker", "place": "the bakehouse on mill lane in Sorrelgate", "temperament": "kindly and always busy",
+    "facts": ["Lights the ovens two hours before dawn.", "Learned the trade from his aunt.", "Saves the burnt loaves for the ducks."]}
+  ]
+ },
+ "player": "a traveler who has just arrived in the village",
+ "villagers": {
+  "train": ["Old Maud, the weaver", "Tam, the miller's boy", "Sister Ellin from the chapel", "Garrick, the cooper",
+            "Wynn, the ferryman's daughter", "Odo, the carter"],
+  "test": ["Bess, the dyer", "Hugh, the tanner's son", "Mother Agnes, the midwife"]
+ },
+ "intents": {
+  "adventure": {
+   "lines": ["I am about to {x}, and I want you with me. Will you come?",
+             "Join me on an adventure: I mean to {x}. Are you in?",
+             "I need a companion to {x}. Will you set out with me today?",
+             "Pack your things: I am going to {x}, and I could use your company. Will you come along?"],
+   "fillers": {
+    "train": ["explore the abandoned silver mine", "search the ruined watchtower on the hill", "follow the river to its source",
+              "find the lost shrine in the pine woods", "climb the Grey Tooth before the snows", "look for the sunken bell in the lake",
+              "map the caves under the waterfall", "cross the high pass to the salt flats"],
+    "test": ["seek the hermit of the heron pools", "dig for the old king's seal in the barrow field",
+             "sail to the island of standing stones", "track the white stag through the far hills",
+             "ride to the hot springs beyond the ridge", "search the flooded quarry for the giant's ring"]
+   }
+  },
+  "way": {
+   "lines": ["Can you tell me the way to {x}?", "I am lost. How do I get to {x} from here?", "Which road should I take to reach {x}?"],
+   "fillers": {
+    "train": ["the old mill", "the ferry landing", "the stone bridge", "the chapel on the hill", "the potter's yard", "the horse market"],
+    "test": ["the dyer's row", "the cooper's lane", "the orchard road", "the tannery"]
+   }
+  },
+  "buy": {
+   "lines": ["Where can I buy {x} around here?", "I need {x}. Who sells the best one in this village?",
+             "I am looking to buy {x}. Can you help me?"],
+   "fillers": {
+    "train": ["a good wool cloak", "a coil of rope", "a lantern", "a pair of sturdy boots", "a clay cooking pot", "a small hand axe"],
+    "test": ["a leather satchel", "a warm blanket", "a whetstone", "a fishing net"]
+   }
+  },
+  "rumors": {
+   "lines": ["What is the news around here? I heard something about {x}.", "People keep whispering about {x}. Do you know anything?",
+             "Any rumors worth hearing? Someone mentioned {x}."],
+   "fillers": {
+    "train": ["the miller's daughter getting married", "a new well being dug", "the lord raising the bridge toll",
+              "a traveling troupe of players", "a stranger buying up old maps", "the bell that rang at midnight"],
+    "test": ["the blacksmith's missing anvil", "a comet seen over the hills", "the steward's quarrel with the miller",
+             "a barge of salt traders on the river"]
+   }
+  },
+  "small_talk": {
+   "lines": ["Fine day, is it not? What do you make of {x}?", "I cannot stop thinking about {x}. And you?",
+             "Tell me, what do you think of {x}?"],
+   "fillers": {
+    "train": ["this weather", "the harvest this year", "the new paving in the square", "the market crowds", "the early frost",
+              "the long summer evenings"],
+    "test": ["the fog on the river", "the coming fair", "the spring floods", "the new chapel bell"]
+   }
+  },
+  "history": {
+   "lines": ["How old is {x}? I would love to hear its story.", "What can you tell me about the history of {x}?",
+             "Who built {x}, and why?"],
+   "fillers": {
+    "train": ["the old watchtower", "the standing stone by the road", "the village well", "the great oak in the square",
+              "the ruined abbey", "the long barn"],
+    "test": ["the mill dam", "the market cross", "the old boundary wall", "the hillside chapel"]
+   }
+  },
+  "help": {
+   "lines": ["Could you lend me a hand? I need to {x}.", "I could use some help: I have to {x}. Do you have a moment?",
+             "Would you help me {x}?"],
+   "fillers": {
+    "train": ["mend a broken cart wheel", "carry these crates to the square", "find my runaway mule", "patch the roof of my shed",
+              "read a letter I was sent", "choose a gift for my mother"],
+    "test": ["fix the latch on my gate", "move a heavy chest", "find a lost ring", "write a note to my cousin"]
+   }
+  },
+  "work": {
+   "lines": ["I am curious about your work as a {role}. Tell me about {x}.",
+             "You are a {role}, are you not? I would like to hear about {x}.",
+             "What is the life of a {role} like? Tell me about {x}."],
+   "fillers": {
+    "train": ["your first day at it", "the hardest part of it", "the tools you rely on", "the best day you ever had at it",
+              "what you would teach an apprentice", "what most people get wrong about it"],
+    "test": ["the worst mistake you made at it", "a day you will never forget", "what you would change about it",
+             "the part you like best"]
+   }
+  },
+  "family": {
+   "lines": ["Do you have family here? Tell me about {x}.", "I miss my own kin. What about {x}?",
+             "Tell me about {x}, if you do not mind my asking."],
+   "fillers": {
+    "train": ["your parents", "your childhood home", "your oldest friend", "the people you grew up with",
+              "the one who taught you your trade", "your neighbors"],
+    "test": ["your brothers and sisters", "your grandparents", "the friends of your youth", "the house you were born in"]
+   }
+  },
+  "advice": {
+   "lines": ["Here is my trouble: {x}. What should I do?", "Tell me honestly: {x}. What would you do in my place?",
+             "I need your advice: {x}. What do you say?"],
+   "fillers": {
+    "train": ["I cannot decide whether to stay here for the winter", "my partner wants to sell our cart",
+              "I was offered work at the mill", "I owe a friend money and cannot pay yet", "my brother wants me to go back home",
+              "I found a purse in the road and do not know whose it is"],
+    "test": ["I was asked to stand as witness in a quarrel", "I want to learn a trade but I am no longer young",
+             "my mule is too old for the road", "a friend asked me to keep a secret from his wife"]
+   }
+  },
+  "festival": {
+   "lines": ["I heard about {x}. Is it worth staying for?", "When is {x}? I would hate to miss it.",
+             "What happens at {x}? I have never seen it."],
+   "fillers": {
+    "train": ["the midsummer fair", "the weekly horse market", "the lantern night on the river", "the wrestling on the green",
+              "the blessing of the fields", "the ribbon dance in spring"],
+    "test": ["the candle procession", "the boat race at the weir", "the wool fair", "the first-snow bonfire"]
+   }
+  },
+  "greeting": {
+   "lines": ["Good day! I am new here. Tell me, {x}?", "Well met. I have only just arrived. Can I ask you, {x}?",
+             "Greetings, friend. One question from a newcomer: {x}?"],
+   "fillers": {
+    "train": ["what do you do here", "how long have you lived here", "what should a newcomer know about this place",
+              "who runs this village", "what is this place known for", "what is the best thing about living here"],
+    "test": ["what brings folk to this village", "what is your favorite spot here", "who should I meet first",
+             "what do people here do in winter"]
+   }
+  }
+ }
+}

@@ -1,0 +1,68 @@
+Data, evaluation outputs, paper text and figures
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 Edelmar Schneider
+
+Unless a file says otherwise, the following material is licensed under the
+Creative Commons Attribution 4.0 International License (CC BY 4.0):
+
+  - the datasets (training and test episodes and their manifests) in the
+    Hugging Face dataset repository DominuZ/afferent-channel-data;
+  - the evaluation outputs (records, generations, summaries and readings);
+  - the paper and its appendix (paper/) and the figures (figures/).
+
+You are free to share (copy and redistribute in any medium or format) and to
+adapt (remix, transform and build upon) this material for any purpose, even
+commercially, as long as you give appropriate credit, provide a link to the
+license, and indicate if changes were made.
+
+Human-readable summary: https://creativecommons.org/licenses/by/4.0/
+Full legal code:        https://creativecommons.org/licenses/by/4.0/legalcode
+
+Suggested attribution:
+  Edelmar Schneider, "State Beside the Text: An Afferent Channel for Agents
+  and Game Characters" (2026), https://github.com/EdelmarSchneider/afferent-channel
+  Licensed under CC BY 4.0.
+
+The source code is licensed separately under the Apache License 2.0 (see
+LICENSE). That includes the task lists the data builders read
+(src/prio/data/*.json), which are part of the source code. The trained weights
+carry the license stated on their model card.
+
+
+Third-party material
+--------------------
+
+Model outputs. The episodes and the evaluation outputs contain text generated
+by Qwen3-1.7B and Qwen3-0.6B (Qwen team, Apache License 2.0). The base models
+themselves are not included.
+
+Fonts. The PDFs of the paper embed Source Serif 4, Source Sans 3 and
+JetBrains Mono, which are licensed under the SIL Open Font License 1.1.
+
+GSM8K. The math problems inside the episodes, and the reference answers used
+to score them, come from the GSM8K dataset (Cobbe et al., 2021, "Training
+Verifiers to Solve Math Word Problems"). They keep GSM8K's MIT License, which
+is reproduced here:
+
+MIT License
+
+Copyright (c) 2021 OpenAI
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.

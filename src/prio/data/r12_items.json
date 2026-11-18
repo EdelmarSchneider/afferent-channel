@@ -1,0 +1,27 @@
+{
+ "topics": [
+  "the rock cycle", "lightning", "tornado formation", "the ozone layer", "acid rain", "cellular respiration",
+  "the human kidney", "the nervous system", "fever", "allergies", "the sense of smell", "genetic inheritance",
+  "CRISPR gene editing", "protein folding", "pasteurization", "food canning", "chocolate making", "tea processing",
+  "olive oil pressing", "salt production", "bookbinding", "the telegraph", "electric motors", "radar", "sonar",
+  "microwave ovens", "LED lighting", "lasers", "holograms", "film photography", "inkjet printers", "RFID tags",
+  "Bluetooth pairing", "the Domain Name System", "email delivery", "operating system scheduling", "geysers",
+  "sand dunes", "river deltas", "mangrove forests", "the monsoon", "permafrost", "the aurora borealis", "comets",
+  "black holes", "the seasons", "meteor showers", "fossil formation", "animal camouflage", "echolocation in bats",
+  "the metamorphosis of butterflies", "ant colonies", "spider webs", "hibernation", "seed dispersal", "tree rings",
+  "mushroom cultivation", "maple syrup production", "weaving on a loom", "leather tanning", "pottery glazing",
+  "welding", "asphalt paving", "tunnel boring", "cable cars", "parachutes", "helicopters", "bicycle gears",
+  "anti-lock brakes", "insurance underwriting", "auctions", "mortgages", "trade tariffs", "collective bargaining",
+  "proportional representation", "judicial review", "trademarks", "census taking", "peer review", "musical scales",
+  "piano tuning", "vinyl records", "stop-motion animation", "perspective drawing", "Braille", "leap years"
+ ],
+ "entities": [
+  "Tampere", "Graz", "Porto", "Bergen", "Aarhus", "Gdańsk", "Brno", "Split", "Cluj-Napoca", "Plovdiv",
+  "Thessaloniki", "Izmir", "Batumi", "Samarkand", "Colombo", "Kathmandu", "Chittagong", "Mandalay", "Vientiane",
+  "Phnom Penh", "Kuching", "Makassar", "Cairns", "Dunedin", "Suva", "Nouméa", "Anchorage", "Saskatoon",
+  "Guadalajara", "Mérida", "Tegucigalpa", "Panama City", "Barranquilla", "Cuenca", "Trujillo", "Cochabamba",
+  "Concepción", "Salta", "Campinas", "João Pessoa", "Mombasa", "Kumasi", "Douala", "Libreville", "Bulawayo",
+  "Durban", "Oran", "Alexandria"
+ ],
+ "datasets": ["warehouse inventory", "library loans", "hospital admissions", "flight delays"]
+}
